@@ -27,4 +27,11 @@ public class RetanguloTest extends TestCase {
         Retangulo retangulo = new Retangulo();
         assertEquals(12, retangulo.CalcularArea(2, 6));
     }
+    
+    public void testCalcularPerimetro()
+    {
+        Retangulo retangulo = new Retangulo();
+        assertEquals(8, retangulo.CalcularPerimetro(2, 2));
+    }
+    
 }

@@ -45,9 +45,14 @@ public class Trapezio {
         this.altura = altura;
     }
     
-    public int CalcularArea()
+    public int CalcularArea(int baseMaior, int baseMenor, int altura)
     {
         return ((baseMaior+baseMenor)*altura)/2;
+    }
+    
+    public int CalcularPerimetro(int pBasemMaior, int pBaseMenor, int area)
+    {
+        return (pBasemMaior + pBaseMenor)+(area*2);
     }
     
     public TipoTrapezio GetTipoTrapezio(int lado1, int lado2)
