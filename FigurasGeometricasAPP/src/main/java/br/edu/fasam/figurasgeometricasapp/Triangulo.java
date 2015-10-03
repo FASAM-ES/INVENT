@@ -1,41 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package br.edu.fasam.figurasgeometricasapp;
-
-/**
- *
- * @author leandro khalil
- */
-public class Triangulo {
-    private Integer _area;
-    private Integer _perimetro;
-    
-    private Integer _lado1;
-    private Integer _lado3;
-    private Integer _lado2;
-    
-    public Triangulo(Integer lado1, Integer lado2, Integer lado3)
-    {
-        _lado1 = lado1;
-        _lado2 = lado2;
-        _lado3 = lado3;
-    }
-
-    public Integer getArea() {
-        return _area;
-    }
-
-    public Integer getPerimetro() {
-        return _perimetro;
-    }
-    
-    public double calulaArea() {
-        double p = (_lado1 + _lado2 + _lado3) / 2;
-        
-        double area = p * (p - _lado1) * (p - _lado2) * (p - _lado3);
-        return Math.sqrt(area);  
-    }
+public class Triangulo
+{
+	Integer _base;
+	Integer _altura;
+	public Triangulo(Integer base, Integer altura)
+	{
+		_base = base;
+		_altura = altura;
+	}
+	
+	public Integer ObterArea()
+	{
+	   return _base * _altura / 2;
+	}
+	
+	public Integer ObterPerimetro(int comprimentoLado1, int comprimentoLado2, int comprimentoLado3)
+	{
+	   return comprimentoLado1 + comprimentoLado2 + comprimentoLado3;
+	}
 }

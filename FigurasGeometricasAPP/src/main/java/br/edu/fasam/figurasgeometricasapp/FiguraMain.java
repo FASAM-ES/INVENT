@@ -5,6 +5,8 @@
  */
 package br.edu.fasam.figurasgeometricasapp;
 
+import TrianguloKhalil;
+
 /**
  *
  * @author carlos
@@ -15,7 +17,7 @@ public class FiguraMain {
         System.out.println("Bora Trabalhaaaaarrrrrrr");
 
         
-        Triangulo t = new Triangulo(4,8,10);
+        TrianguloKhalil t = new TrianguloKhalil(4,8,10);
         System.out.print("Area do triangulo: ");        
         System.out.println(t.calulaArea());
 
