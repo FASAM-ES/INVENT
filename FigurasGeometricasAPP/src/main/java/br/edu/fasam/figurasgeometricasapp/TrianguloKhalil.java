@@ -28,12 +28,12 @@ public class TrianguloKhalil {
         return _area;
     }
 
-    public Integer getPerimetro() {
-        return _perimetro;
+    public double getPerimetro() {
+        return (_lado1 + _lado2 + _lado3) / 2;
     }
     
     public double calulaArea() {
-        double p = (_lado1 + _lado2 + _lado3) / 2;
+        double p = getPerimetro();
         
         double area = p * (p - _lado1) * (p - _lado2) * (p - _lado3); 
         
