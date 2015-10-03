@@ -1,25 +1,14 @@
 package br.edu.fasam.figurasgeometricasapp;
 
-/**
- *
- * @author FabioCabral
- */
-
-public class Quandrado
+public class Quadrado
 {
-
-	public  Quandrado(Integer lado)
-	{
-		setLado(lado);
-	}
-
-
-	private Integer area;
-
+	private Double area;
 	private Integer _lado;
 
-	
-
+        public  Quadrado(Integer lado)
+	{
+            setLado(lado);
+	}
 
 	public Integer getLado()
 	{
@@ -38,7 +27,7 @@ public class Quandrado
 	}	
 
 
-	public Integer getArea()
+	public Double getArea()
 	{
 		return Math.pow(_lado,2);
 	}
