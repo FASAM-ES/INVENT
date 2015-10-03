@@ -6,7 +6,13 @@ package br.edu.fasam.figurasgeometricasapp;
  */
 public class Circulo 
 {
-    private int lado;
-    private int area;
+    private double Area;
+    private double Raio;
+    private double Pi;
+    
+    private void CalcularArea(double raio, double pi)
+    {
+        Area = raio * raio * pi;
+    }
     
 }
