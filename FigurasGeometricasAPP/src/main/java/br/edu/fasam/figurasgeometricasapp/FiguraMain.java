@@ -13,5 +13,6 @@ package br.edu.fasam.figurasgeometricasapp;
 public class FiguraMain {
     public static void main(String[] args){
         System.out.println("Bora Trabalhaaaaarrrrrrr");
+		System.out.println("VTC");
     }
 }
