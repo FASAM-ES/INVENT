@@ -30,4 +30,10 @@ public class TrianguloKhalilTest extends TestCase {
         TrianguloKhalil triangulo = new TrianguloKhalil(4,8,10);
         assertEquals(15.199, triangulo.calulaArea());
     }
+    
+    public void testeCalculaPerimetro()
+    {
+        TrianguloKhalil triangulo = new TrianguloKhalil(4,8,10);
+        assertEquals(11.0, triangulo.getPerimetro());
+    }
 }
