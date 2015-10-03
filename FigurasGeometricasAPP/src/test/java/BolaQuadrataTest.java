@@ -1,4 +1,5 @@
 
+import br.edu.fasam.figurasgeometricasapp.BolaQuadrada;
 import br.edu.fasam.figurasgeometricasapp.Retangulo;
 
 /*
