@@ -6,8 +6,10 @@ package br.edu.fasam.figurasgeometricasapp;
  * @author carlos
  */
 
-public class FiguraMain {
-    public static void main(String[] args){
+public class FiguraMain 
+{
+    public static void main(String[] args)
+    {
         System.out.println("Bora Trabalhaaaaarrrrrrr");
 
         
@@ -19,5 +21,4 @@ public class FiguraMain {
         System.out.println("VTC");
 
     }
-}
 }
