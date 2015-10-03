@@ -28,4 +28,9 @@ public class Retangulo {
     {
         return base*altura;
     }
+    
+    public int CalcularPerimetro(int base, int altura)
+    {
+        return 2*(base+altura);
+    }
 }
