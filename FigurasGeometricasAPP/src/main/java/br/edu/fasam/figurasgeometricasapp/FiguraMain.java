@@ -11,8 +11,17 @@ package br.edu.fasam.figurasgeometricasapp;
  */
 
 public class FiguraMain {
-public static void main(String[] args){
-System.out.println("Bora Trabalhaaaaarrrrrrr");
-System.out.println("Bruh!");
+    public static void main(String[] args){
+        System.out.println("Bora Trabalhaaaaarrrrrrr");
+
+        
+        Triangulo t = new Triangulo(4,8,10);
+        System.out.print("Area do triangulo: ");        
+        System.out.println(t.calulaArea());
+
+
+        System.out.println("VTC");
+
+    }
 }
 }
