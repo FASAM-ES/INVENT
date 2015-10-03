@@ -26,13 +26,13 @@ public class Quadrado
 	}
 
 	
-	public Integer getPerimetro()
+	public int getPerimetro()
 	{
             return _lado * 4;
 	}	
 
 
-	public Double getArea()
+	public double getArea()
 	{
             return Math.pow(_lado,2);
 	}

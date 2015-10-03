@@ -34,13 +34,13 @@ public class QuadradoTest extends TestCase {
         public void testeCalcularPerimetro()
         {
             Quadrado quadrado = new Quadrado(5);
-            assertEquals(20.19, quadrado.getPerimetro());
+            assertEquals(20, quadrado.getPerimetro());
         }
         
         public void testCalcularArea()
         {
             Quadrado quadrado = new Quadrado(5);
-            assertEquals(25.30, quadrado.getArea());
+            assertEquals(25.0, quadrado.getArea());
             
         }
 }

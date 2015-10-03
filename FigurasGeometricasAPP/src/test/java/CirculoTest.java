@@ -33,8 +33,7 @@ public class CirculoTest extends TestCase {
     public void testCalcularArea()
     {
         Circulo circulo = new Circulo();
-        
-        assertEquals(10, circulo.CalcularArea(10, 10));
+        assertEquals(1000.0, circulo.CalcularArea(10, 10));
         
     }
 }
