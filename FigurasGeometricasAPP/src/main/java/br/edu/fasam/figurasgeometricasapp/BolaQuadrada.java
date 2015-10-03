@@ -9,7 +9,7 @@ public class BolaQuadrada {
         setSide(side);
     }
 
-    public Integer GetArea() {
+    public int GetArea() {
         return getSide() * 4;
     }
 
