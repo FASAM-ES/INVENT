@@ -6,7 +6,7 @@ public class BolaQuadrada
 		this._side2 = side2;
 	}
 	int _side1;
-	int _sile2;
+	int _side2;
 	
 	
 	}
