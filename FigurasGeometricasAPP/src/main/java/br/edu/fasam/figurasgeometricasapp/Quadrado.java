@@ -7,15 +7,13 @@ package br.edu.fasam.figurasgeometricasapp;
 
 public class Quadrado
 {
+	private Double area;
+	private Integer _lado;
 
-	public Quadrado(Integer lado)
-	{
+        public  Quadrado(Integer lado)
+        {
             setLado(lado);
 	}
-
-
-	private Integer area;
-	private Integer _lado;
 
 	public Integer getLado()
         {
@@ -34,11 +32,10 @@ public class Quadrado
 	}	
 
 
-	public double getArea()
+	public Double getArea()
 	{
             return Math.pow(_lado,2);
 	}
-
 
 
 }
