@@ -25,6 +25,7 @@ public class BolaQuadrataTest extends TestCase {
 
     public void testCalcularArea() {
         BolaQuadrada bola = new BolaQuadrada(4);
-       assertEquals(16, bola.GetArea());
+        assertEquals(16, bola.GetArea());
+
     }
 }
