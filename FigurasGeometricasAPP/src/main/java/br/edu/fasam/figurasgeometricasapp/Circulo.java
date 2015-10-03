@@ -4,6 +4,9 @@ package br.edu.fasam.figurasgeometricasapp;
 /**
  * @author herlan
  */
-public class Circulo {
+public class Circulo 
+{
+    private int lado;
+    private int area;
     
 }
