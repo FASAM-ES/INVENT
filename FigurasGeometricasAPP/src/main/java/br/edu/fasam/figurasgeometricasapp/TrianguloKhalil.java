@@ -35,7 +35,10 @@ public class TrianguloKhalil {
     public double calulaArea() {
         double p = (_lado1 + _lado2 + _lado3) / 2;
         
-        double area = p * (p - _lado1) * (p - _lado2) * (p - _lado3);
-        return Math.sqrt(area);  
+        double area = p * (p - _lado1) * (p - _lado2) * (p - _lado3); 
+        
+        //return Math.sqrt(area);
+        
+        return Math.round(Math.sqrt(area) * 1000.00) / 1000.00;
     }
 }
